@@ -4,7 +4,8 @@
   "description": "## Exercise: In-App Easter Egg 1. Create a simple express app that includes the following routes:   - /home   - /see-our-chickens   - /see-our-eggs",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./app.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/joellegg/05-express_middleware#readme",
   "dependencies": {
+    "dotenv": "^4.0.0",
     "express": "^4.15.2"
   }
 }
